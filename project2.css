@@ -1,0 +1,308 @@
+@font-face	{
+
+  font-family:Neue Hass Grotesc;
+  src:url("NHaasGroteskDSPro-65Md.ttf");
+}
+
+@font-face	{
+
+  font-family:Neue Hass Grotesc R;
+  src:url("NHaasGroteskDSPro-55Rg.ttf");
+}
+
+@font-face	{
+
+  font-family:bdLofi;
+  src:url("bd_lofi.otf");
+}
+
+body, html {
+    height:100%;
+    background-color:#f1f1f1;
+}
+
+#screen1{
+  background-color: rgb(255,0,0);
+}
+
+#introphoto1{
+  width: 101vw;
+    position:absolute;
+  	top:0vw;
+    left:-1vw;
+}
+
+#title{
+  font-family: bdLofi;
+  font-size:4.7vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:33.7vw;
+}
+
+#greenline{
+  width: 101vw;
+  position:absolute;
+  top:50.5vw;
+  left:0vw;
+}
+
+#introtext{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:1vw;
+  position:absolute;
+  left:5.3vw;
+  top:52vw;
+}
+
+#greenlinethick{
+  width: 101vw;
+  position:absolute;
+  top:59vw;
+  left:0vw;
+}
+
+#sub1{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:58.5vw;
+}
+
+#sub2{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:58.5vw;
+}
+
+#sub3{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:62.5vw;
+}
+
+#sub4{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:62.5vw;
+}
+
+#subh1{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:60.2vw;
+}
+
+#subh2{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:60.2vw;
+}
+
+#subh3{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:64.2vw;
+}
+
+#subh4{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:64.2vw;
+}
+
+#previous{
+  position:absolute;
+  top:2vw;
+  left:4vw;
+}
+
+
+#brief{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:72vw;
+}
+
+#briefd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:78.2vw;
+}
+
+#client{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:84vw;
+}
+
+#clientd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:90.2vw;
+}
+
+#overview{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:96vw;
+}
+
+#overviewd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:102.2vw;
+}
+
+#mood{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:108vw;
+}
+
+#moodd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:114.2vw;
+}
+
+#moodimg{
+  width:85.5vw;
+  position:absolute;
+  left:5.3vw;
+  top:120vw;
+}
+
+
+#visual{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:166.2vw;
+}
+
+#visuald{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:172vw;
+}
+
+
+#final{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:178.2vw;
+}
+
+#thetwo{
+  width:85.5vw;
+  position:absolute;
+  left:4.5vw;
+  top:185vw;
+}
+
+#firstp{
+  font-family: bdLofi;
+  color:#b2b0b0;
+  font-size:1.3vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:13vw;
+  top:-1.5vw;
+}
+
+#video{
+  height:52vw;
+  width:99vw;
+  position:absolute;
+  top:225vw;
+}
+
+#video2{
+  height:52vw;
+  width:99vw;
+  position:absolute;
+  top:280vw;
+}
+
+#video3{
+  height:52vw;
+  width:99vw;
+  position:absolute;
+  top:335vw;
+}
+
+#video4{
+  height:52vw;
+  width:99vw;
+  position:absolute;
+  top:390vw;
+}
+
+#video5{
+  height:52vw;
+  width:99vw;
+  position:absolute;
+  top:445vw;
+}
