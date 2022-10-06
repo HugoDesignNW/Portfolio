@@ -1,0 +1,102 @@
+@font-face	{
+
+  font-family:Neue Hass Grotesc;
+  src:url("NHaasGroteskDSPro-65Md.ttf");
+}
+
+@font-face	{
+
+  font-family:bdLofi;
+  src:url("bd_lofi.otf");
+}
+
+@font-face	{
+
+  font-family:Neue Hass Grotesc R;
+  src:url("NHaasGroteskDSPro-55Rg.ttf");
+}
+
+body, html {
+    height:100%;
+    background-color:#C9E96A;
+}
+
+#hello {
+  font-family: Neue Hass Grotesc;
+  font-size:3.40vw;
+	position:absolute;
+	left:5.3vw;
+	top:14.20vw;
+}
+
+#boss {
+  font-family: bdlofi;
+  font-size:13.5vw;
+  position:absolute;
+  left:16.8vw;
+  top: -4vw;
+}
+
+#description{
+  font-family: Neue Hass Grotesc;
+  font-size:2.5vw;
+	position:absolute;
+	left:5.3vw;
+	top:25vw;
+}
+
+#cross{
+  //width:69.5vw;
+  position:absolute;
+  top:5vw;
+  left:4vw;
+}
+
+#previous{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+	position:absolute;
+	left:5.3vw;
+	top:3vw;
+}
+
+#marq{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+  position:absolute;
+  width:100%;
+  top:48vw;
+  left:0vw;
+}
+
+#marq2{
+  font-family: Neue Hass Grotesc R;
+  font-size:0.6vw;
+  position:absolute;
+  width:100%;
+  top:49.3vw;
+  left:0vw;
+}
+
+a:link {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #c1bbbb;
+  text-decoration: none;
+}
