@@ -1,0 +1,142 @@
+@font-face	{
+
+  font-family:Neue Hass Grotesc;
+  src:url("NHaasGroteskDSPro-65Md.ttf");
+}
+
+@font-face	{
+
+  font-family:bdLofi;
+  src:url("bd_lofi.otf");
+}
+
+body, html {
+    height:100%;
+    background-color:#f1f1f1;
+}
+
+#hello {
+  font-family: Neue Hass Grotesc;
+  font-size:3.40vw;
+	position:absolute;
+	left:18.5vw;
+	top:19vw;
+}
+
+#boss {
+  font-family: bdlofi;
+  font-size:13.5vw;
+  position:absolute;
+  left:30vw;
+  top: 0.85vw;
+}
+
+#rect{
+  position:absolute;
+	top:29vw;
+}
+
+#rect2{
+  position:absolute;
+	top:30vw;
+}
+
+#me{
+  font-family: Neue Hass Grotesc;
+  line-height:1.3vw;
+  font-size:1.27vw;
+  position:absolute;
+  left:30vw;
+  top: 30vw;
+}
+
+#titleprojects{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+  position:absolute;
+  left:5.6vw;
+  top: 35.8vw;
+}
+
+#one{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+  position:absolute;
+  left:5.6vw;
+  top: 39.8vw;
+
+}
+
+#two{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+  position:absolute;
+  left:5.6vw;
+  top: 41.8vw;
+
+}
+
+#three{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+  position:absolute;
+  left:5.6vw;
+  top: 43.8vw;
+
+}
+
+#aboutme{
+  font-family: Neue Hass Grotesc;
+  font-size:1.1vw;
+  position:absolute;
+  left:5.6vw;
+  top: 3.8vw;
+}
+
+/* unvisited link */
+a:link {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+.hover_img a {
+  position:relative;
+  left:12vw;
+ }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span {
+  display:block;
+  position:relative;
+  left:-5.7vw;
+  top:-37vw;
+}
+
+.hover_img2 a {
+  position:relative;
+  left:12vw;
+ }
+.hover_img2 a span { position:absolute; display:none; z-index:99; }
+.hover_img2 a:hover span {
+  display:block;
+  position:relative;
+  left:-5.7vw;
+  top:-39vw;
+}
