@@ -60,6 +60,19 @@ body, html {
 	top:3vw;
 }
 
+#resume{
+  font-family: Neue Hass Grotesc;
+  font-size:7vw;
+	position:absolute;
+	right:6vw;
+	top:40vw;
+}
+
+#resume:hover {
+  color: rgb(114,207,235);
+  text-decoration: none;
+}
+
 #marq{
   font-family: Neue Hass Grotesc;
   font-size:1.1vw;
