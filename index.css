@@ -34,11 +34,13 @@ body, html {
 #rect{
   position:absolute;
 	top:29vw;
+  width: 101vw;
 }
 
 #rect2{
   position:absolute;
 	top:30vw;
+  width: 101vw;
 }
 
 #me{
@@ -120,6 +122,7 @@ a:active {
 .hover_img a {
   position:relative;
   left:12vw;
+  width: 101vw;
  }
 .hover_img a span { position:absolute; display:none; z-index:99; }
 .hover_img a:hover span {
@@ -132,6 +135,7 @@ a:active {
 .hover_img2 a {
   position:relative;
   left:12vw;
+  width: 101vw;
  }
 .hover_img2 a span { position:absolute; display:none; z-index:99; }
 .hover_img2 a:hover span {
