@@ -121,6 +121,10 @@ a:active {
   text-decoration: none;
 }
 
+#img1{
+	width:101vw;
+}
+
 .hover_img a {
   position:relative;
   left:12vw;
@@ -132,6 +136,10 @@ a:active {
   position:relative;
   left:-5.7vw;
   top:-37vw;
+}
+
+#img2{
+	width:101vw;
 }
 
 .hover_img2 a {
