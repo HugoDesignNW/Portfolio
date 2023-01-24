@@ -115,3 +115,7 @@ a:active {
   color: #c1bbbb;
   text-decoration: none;
 }
+
+::selection {
+  color:#FF67B9;
+}
