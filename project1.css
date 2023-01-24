@@ -267,3 +267,7 @@ body, html {
   top:2vw;
   left:4vw;
 }
+
+::selection {
+  color:#FF67B9;
+}
