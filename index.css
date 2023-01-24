@@ -154,3 +154,7 @@ a:active {
   left:-5.7vw;
   top:-39vw;
 }
+
+::selection {
+  color:#FF67B9;
+}
