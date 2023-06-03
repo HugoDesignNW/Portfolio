@@ -1,0 +1,334 @@
+@font-face	{
+
+  font-family:Neue Hass Grotesc;
+  src:url("NHaasGroteskDSPro-65Md.ttf");
+}
+
+@font-face	{
+
+  font-family:Neue Hass Grotesc R;
+  src:url("NHaasGroteskDSPro-55Rg.ttf");
+}
+
+@font-face {
+  font-family:Neue Hass Grotes;
+  src:url("NHaasGroteskDSPro-75Bd.ttf");
+}
+
+@font-face	{
+
+  font-family:bdLofi;
+  src:url("bd_lofi.otf");
+}
+
+body, html {
+    height:100%;
+    background-color:#f1f1f1;
+    overflow-x: hidden;
+}
+
+#screen1{
+  background-color: rgb(255,0,0);
+}
+
+#introphoto1{
+  width: 101vw;
+    position:absolute;
+  	top:0vw;
+    left:-1vw;
+}
+
+#title{
+  font-family: bdLofi;
+  font-size:4.7vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:33.7vw;
+}
+
+#greenline{
+  width: 101vw;
+  position:absolute;
+  top:50.5vw;
+  left:0vw;
+}
+
+#introtext{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:50.5vw;
+}
+
+#greenlinethick{
+  width: 101vw;
+  position:absolute;
+  top:59vw;
+  left:0vw;
+}
+
+#sub1{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:58.5vw;
+}
+
+#sub2{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:58.5vw;
+}
+
+#sub3{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:62.5vw;
+}
+
+#sub4{
+  font-family: Neue Hass Grotesc;
+  color: white;
+  font-size:1.25vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:62.5vw;
+}
+
+#subh1{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:60.2vw;
+}
+
+#subh2{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:60.2vw;
+}
+
+#subh3{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:64.2vw;
+}
+
+#subh4{
+  font-family: Neue Hass Grotesc;
+  font-size:0.9vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:34.5vw;
+  top:64.2vw;
+}
+
+#brief{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:72vw;
+}
+
+#briefd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:78.2vw;
+}
+
+#client{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:84vw;
+}
+
+#clientd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:90.2vw;
+}
+
+#gallerygroup{
+  width:69.5vw;
+  position:absolute;
+  top:98vw;
+  left:5.3vw;
+}
+
+#primary{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:130vw;
+}
+
+#primaryd{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:136.2vw;
+}
+
+#blue{
+
+  position:absolute;
+  top:150vw;
+  left:25vw;
+}
+
+#ethics{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:170.2vw;
+}
+
+#boldbig{
+  font-size:1.55vw;
+}
+
+#rect1{
+  width:24.5vw;
+  position:absolute;
+  top:174vw;
+  left:33.8vw;
+}
+
+
+#signs{
+  width:40vw;
+  position:absolute;
+  top:176vw;
+  left:49vw;
+}
+
+#map{
+
+  position:absolute;
+  top:198.2vw;
+  left:0vw;
+}
+
+#chase{
+
+  position:absolute;
+  top:254.2vw;
+  left:25vw;
+}
+
+
+
+#secondary{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:356vw;
+}
+
+#workshop{
+  font-family: Neue Hass Grotesc R;
+  font-size:1.22vw;
+  line-height:1.35vw;
+  position:absolute;
+  left:5.3vw;
+  top:295.2vw;
+}
+
+#exers{
+
+  position:absolute;
+  top:305vw;
+  left:22.5vw;
+}
+
+#goalsimg{
+  position:absolute;
+  top:385vw;
+  left:22.5vw;
+}
+
+#journey{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:410vw;
+}
+
+#map2{
+  width: 90vw;
+  position:absolute;
+  top:425vw;
+  left:5.3vw;
+}
+
+#map2info{
+  position:absolute;
+  top:467vw;
+  left:5.3vw;
+}
+
+#mocktitle{
+  font-family: bdLofi;
+  font-size:2vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:5.3vw;
+  top:550vw;
+}
+
+#tmock{
+  position:absolute;
+  top:560vw;
+  left:5.3vw;
+  padding-bottom: 15vh;
+}
+
+#previous{
+  position:absolute;
+  top:2vw;
+  left:4vw;
+}
