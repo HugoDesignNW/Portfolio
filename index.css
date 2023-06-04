@@ -170,6 +170,29 @@ a:active {
 	animation-fill-mode:forwards;
 }
 
+#img3{
+	width:101vw;
+}
+
+.hover_img3 a {
+  position:relative;
+  left:12vw;
+  width: 101vw;
+ }
+.hover_img3 a span { position:absolute; display:none; z-index:99; }
+.hover_img3 a:hover span {
+  display:block;
+  position:relative;
+  left:-5.7vw;
+  top:-39vw;
+	
+	animation-name: fadeIn;
+	animation-delay:0;
+	animation-duration:1s;
+	animation-fill-mode:forwards;
+}
+
+
 ::selection {
   color:#FF67B9;
 }
