@@ -208,7 +208,7 @@ body, html {
 }
 
 #blue{
-
+  width:50vw;
   position:absolute;
   top:150vw;
   left:25vw;
@@ -243,14 +243,14 @@ body, html {
 }
 
 #map{
-
+  width:54vw;
   position:absolute;
   top:198.2vw;
   left:0vw;
 }
 
 #chase{
-
+  width:55vw;
   position:absolute;
   top:254.2vw;
   left:25vw;
@@ -277,13 +277,14 @@ body, html {
 }
 
 #exers{
-
+  width:51.5vw;
   position:absolute;
   top:305vw;
   left:22.5vw;
 }
 
 #goalsimg{
+  width:52vw;
   position:absolute;
   top:385vw;
   left:22.5vw;
@@ -306,6 +307,7 @@ body, html {
 }
 
 #map2info{
+  width:52vw;
   position:absolute;
   top:467vw;
   left:5.3vw;
@@ -321,6 +323,7 @@ body, html {
 }
 
 #tmock{
+  width:52vw;
   position:absolute;
   top:560vw;
   left:5.3vw;
