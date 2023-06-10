@@ -330,6 +330,14 @@ body, html {
   padding-bottom: 15vh;
 }
 
+#realmock{
+  width:52vw;
+  position:absolute;
+  top:670vw;
+  left:5.3vw;
+  padding-bottom: 15vh;
+}
+
 #previous{
   position:absolute;
   top:2vw;
