@@ -1,275 +1,282 @@
 @font-face	{
 
-  font-family:Neue Hass Grotesc;
-  src:url("NHaasGroteskDSPro-65Md.ttf");
+  font-family:Replica Bold;
+  src:url("ReplicaTrial-Bold.otf");
+
 }
 
 @font-face	{
 
-  font-family:Neue Hass Grotesc R;
-  src:url("NHaasGroteskDSPro-55Rg.ttf");
+  font-family:Replica Light;
+  src:url("ReplicaTrial-Light.otf");
 }
 
 @font-face	{
 
-  font-family:bdLofi;
-  src:url("bd_lofi.otf");
+  font-family:Iconographica;
+  src:url("Iconografica.ttf");
 }
 
 body, html {
     height:100%;
-    background-color:#f1f1f1;
-    overflow-x: hidden;
-}
-
-#screen1{
-  background-color: rgb(255,0,0);
-}
-
-#introphoto1{
-  width: 101vw;
-    position:absolute;
-  	top:0vw;
-    left:-1vw;
+    background-color:#ffffff;
 }
 
 #title{
-  font-family: bdLofi;
+  font-family: Replica Bold;
   font-size:4.7vw;
-  line-height:5.2vw;
+  letter-spacing: -0.3vw;
+  line-height:93%;
+  color:#EA3283;
   position:absolute;
-  left:5.3vw;
-  top:33.7vw;
-}
-
-#greenline{
-  width: 101vw;
-  position:absolute;
-  top:50.5vw;
-  left:0vw;
+  left:15vw;
+  top:24vh;
 }
 
 #introtext{
-  font-family: Neue Hass Grotesc;
-  font-size:0.9vw;
-  line-height:1vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:auto;
   position:absolute;
-  left:5.3vw;
-  top:52vw;
-}
-
-#greenlinethick{
-  width: 101vw;
-  position:absolute;
-  top:59vw;
-  left:0vw;
+  left:15vw;
+  top:54.5vh;
 }
 
 #sub1{
-  font-family: Neue Hass Grotesc;
-  color: white;
-  font-size:1.25vw;
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
   line-height:5.2vw;
   position:absolute;
-  left:5.3vw;
-  top:58.5vw;
+  left:15vw;
+  top:64.5vh;
 }
 
 #sub2{
-  font-family: Neue Hass Grotesc;
-  color: white;
-  font-size:1.25vw;
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
   line-height:5.2vw;
   position:absolute;
-  left:34.5vw;
-  top:58.5vw;
+  left:15vw;
+  top:77.5vh;
 }
 
 #sub3{
-  font-family: Neue Hass Grotesc;
-  color: white;
-  font-size:1.25vw;
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
   line-height:5.2vw;
   position:absolute;
-  left:5.3vw;
-  top:62.5vw;
+  left:15vw;
+  top:90.5vh;
 }
 
 #sub4{
-  font-family: Neue Hass Grotesc;
-  color: white;
-  font-size:1.25vw;
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
   line-height:5.2vw;
   position:absolute;
-  left:34.5vw;
-  top:62.5vw;
+  left:15vw;
+  top:103.5vh;
 }
 
 #subh1{
-  font-family: Neue Hass Grotesc;
-  font-size:0.9vw;
-  line-height:5.2vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
   position:absolute;
-  left:5.3vw;
-  top:60.2vw;
+  left:15vw;
+  top:70.9vh;
 }
 
 #subh2{
-  font-family: Neue Hass Grotesc;
-  font-size:0.9vw;
-  line-height:5.2vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
   position:absolute;
-  left:34.5vw;
-  top:60.2vw;
+  left:15vw;
+  top:83.9vh;
 }
 
 #subh3{
-  font-family: Neue Hass Grotesc;
-  font-size:0.9vw;
-  line-height:5.2vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
   position:absolute;
-  left:5.3vw;
-  top:64.2vw;
+  left:15vw;
+  top:96.9vh;
 }
 
 #subh4{
-  font-family: Neue Hass Grotesc;
-  font-size:0.9vw;
-  line-height:5.2vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
   position:absolute;
-  left:34.5vw;
-  top:64.2vw;
+  left:15vw;
+  top:109.9vh;
 }
 
 #previous{
+  font-family: Iconographica;
+  font-size:3vw;
+  line-height:normal;
   position:absolute;
-  top:2vw;
-  left:4vw;
+  left:15vw;
+  top:5vh;
 }
 
 
 #brief{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
+  color:#ACACAC;
   font-size:2vw;
-  line-height:5.2vw;
+  line-height:normal;
   position:absolute;
-  left:5.3vw;
-  top:72vw;
+  left:15vw;
+  top:121vh;
 }
 
 #briefd{
-  font-family: Neue Hass Grotesc R;
-  font-size:1.22vw;
-  line-height:1.35vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:78.2vw;
+  left:15vw;
+  top:132.1vh;
 }
 
 #client{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
+  color:#ACACAC;
   font-size:2vw;
-  line-height:5.2vw;
+  line-height:normal;
   position:absolute;
-  left:5.3vw;
-  top:84vw;
+  left:15vw;
+  top:160.8vh;
 }
 
 #clientd{
-  font-family: Neue Hass Grotesc R;
-  font-size:1.22vw;
-  line-height:1.35vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:90.2vw;
+  left:15vw;
+  top:171.3vh;
 }
 
 #overview{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
+  color:#ACACAC;
   font-size:2vw;
-  line-height:5.2vw;
+  line-height:normal;
   position:absolute;
-  left:5.3vw;
-  top:96vw;
+  left:15vw;
+  top:199vh;
 }
 
 #overviewd{
-  font-family: Neue Hass Grotesc R;
-  font-size:1.22vw;
-  line-height:1.35vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:102.2vw;
+  left:15vw;
+  top:210.1vh;
 }
 
 #mood{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  color:#ACACAC;
+  letter-spacing: -0.05vw;
   font-size:2vw;
-  line-height:5.2vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:108vw;
+  left:15vw;
+  top:250.3vh;
 }
 
 #moodd{
-  font-family: Neue Hass Grotesc R;
-  font-size:1.22vw;
-  line-height:1.35vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:114.2vw;
+  left:15vw;
+  top:261.4vh;
 }
 
 #moodimg{
-  width:85.5vw;
+  width:75vw;
   position:absolute;
-  left:5.3vw;
-  top:120vw;
+  left:15vw;
+  top:292.7vh;
 }
 
 
 #visual{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
+  color:#ACACAC;
   font-size:2vw;
-  line-height:5.2vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:166.2vw;
+  left:15vw;
+  top:381.5vh;
 }
 
 #visuald{
-  font-family: Neue Hass Grotesc R;
-  font-size:1.22vw;
-  line-height:1.35vw;
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:172vw;
+  left:15vw;
+  top:392.6vh;
 }
 
 
 #final{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
+  color:#ACACAC;
   font-size:2vw;
-  line-height:5.2vw;
+  line-height:1.5;
   position:absolute;
-  left:5.3vw;
-  top:178.2vw;
+  left:15vw;
+  top:420vh;
 }
 
 #thetwo{
-  width:85.5vw;
+  width:71vw;
   position:absolute;
-  left:4.5vw;
-  top:185vw;
+  left:15vw;
+  top:438vh;
+}
+
+#thefinals{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:1.5;
+  position:absolute;
+  left:15vw;
+  top:514.3vh;
 }
 
 #firstp{
-  font-family: bdLofi;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
+  color:#ACACAC;
   color:#b2b0b0;
   font-size:1.3vw;
-  line-height:5.2vw;
+  line-height:1.5;
   position:absolute;
-  left:13vw;
+  left:15vw;
   top:-1.5vw;
 }
 
@@ -277,37 +284,56 @@ body, html {
   height:52vw;
   width:99vw;
   position:absolute;
-  top:225vw;
+  top:558vh;
 }
 
 #video2{
   height:52vw;
   width:99vw;
   position:absolute;
-  top:280vw;
+  top:668.5vh;
 }
 
 #video3{
   height:52vw;
   width:99vw;
   position:absolute;
-  top:335vw;
+  top:779vh;
 }
 
 #video4{
   height:52vw;
   width:99vw;
   position:absolute;
-  top:390vw;
+  top:889.5vh;
 }
 
 #video5{
   height:52vw;
   width:99vw;
   position:absolute;
-  top:445vw;
+  top:1000vh;
 }
 
-::selection {
-  color:#FF67B9;
+a:link {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #EA3283;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #c1bbbb;
+  text-decoration: none;
 }
