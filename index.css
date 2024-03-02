@@ -20,7 +20,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:13vw;
 	position:absolute;
-	left:2vw;
+	left:11vw;
 	top:-12.5vw;
   color:#EA3283;
 
@@ -43,7 +43,7 @@ body, html {
   line-height:92%;
   letter-spacing:normal;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 0.85vw;
 }
 
@@ -81,7 +81,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:1.1vw;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 35.8vw;
 }
 
@@ -89,7 +89,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:1.1vw;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 34.8vw;
 
 }
@@ -98,7 +98,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:1.1vw;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 36.8vw;
 }
 
@@ -106,7 +106,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:1.1vw;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 38.8vw;
   color: rgb(#f1f1f1);
 }
@@ -115,7 +115,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:1.1vw;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 40.8vw;
   color: rgb(#f1f1f1);
 }
@@ -124,7 +124,7 @@ body, html {
   font-family: Neue Hass Grotesc;
   font-size:3.4vw;
   position:absolute;
-  left:6vw;
+  left:15vw;
   top: 19.3vw;
 }
 
@@ -152,3 +152,45 @@ a:active {
   color: #c1bbbb;
   text-decoration: none;
 }
+
+#three:hover{
+  color: rgb(#f1f1f1);
+  text-decoration: none;
+}
+
+.hover_img a {
+  position:relative;
+  left:12vw;
+  width:101vw;
+ }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span {
+  display:block;
+  position:relative;
+  left:-5.7vw;
+  top:-37.2vw;
+
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.hover_img2 a {
+  position:relative;
+  left:12vw;
+  width: 101vw;
+ }
+.hover_img2 a span { position:absolute; display:none; z-index:99;}
+.hover_img2 a:hover span {
+  display:block;
+  position:relative;
+  left:-5.7vw;
+  top:-39.2vw;
+
+  animation-name: fadeIn;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
