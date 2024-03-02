@@ -5,15 +5,35 @@
 
 @font-face	{
 
+  font-family:Replica Bold;
+  src:url("ReplicaTrial-Bold.otf");
+
+}
+
+@font-face	{
+
+  font-family:Replica Light;
+  src:url("ReplicaTrial-Light.otf");
+}
+
+@font-face	{
+
+  font-family:Iconographica;
+  src:url("Iconografica.ttf");
+}
+
+@font-face	{
+
   font-family:Neue Hass Grotesc;
   src:url("NHaasGroteskDSPro-65Md.ttf");
 }
 
 body, html {
     height:100%;
-    background-color:#f1f1f1;
-    overflow-y: hidden;
+    background-color:#ffffff;
+    scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #hello {
@@ -69,7 +89,8 @@ body, html {
 }
 
 #me{
-  font-family: Neue Hass Grotesc;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
   line-height:1.3vw;
   font-size:1.27vw;
   position:absolute;
@@ -78,7 +99,8 @@ body, html {
 }
 
 #titleprojects{
-  font-family: Neue Hass Grotesc;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
   font-size:1.1vw;
   position:absolute;
   left:15vw;
@@ -86,7 +108,8 @@ body, html {
 }
 
 #one{
-  font-family: Neue Hass Grotesc;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
   font-size:1.1vw;
   position:absolute;
   left:15vw;
@@ -95,7 +118,8 @@ body, html {
 }
 
 #two{
-  font-family: Neue Hass Grotesc;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
   font-size:1.1vw;
   position:absolute;
   left:15vw;
@@ -103,7 +127,8 @@ body, html {
 }
 
 #three{
-  font-family: Neue Hass Grotesc;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
   font-size:1.1vw;
   position:absolute;
   left:15vw;
@@ -112,7 +137,8 @@ body, html {
 }
 
 #four{
-  font-family: Neue Hass Grotesc;
+  font-family: Replica Bold;
+  letter-spacing: -0.05vw;
   font-size:1.1vw;
   position:absolute;
   left:15vw;
@@ -122,10 +148,117 @@ body, html {
 
 #aboutme{
   font-family: Neue Hass Grotesc;
+  letter-spacing: -0.05vw;
   font-size:3.4vw;
   position:absolute;
   left:15vw;
   top: 19.3vw;
+}
+
+#ab{
+  font-family: Neue Hass Grotesc;
+  font-size:13vw;
+	position:absolute;
+	left:10vw;
+	top:174.8vh;
+  color:#EA3283;
+}
+
+#about{
+  font-family: Neue Hass Grotesc;
+  font-size:3.4vw;
+  line-height:92%;
+  letter-spacing:normal;
+  position:absolute;
+  left:15vw;
+  top: 200vh;
+}
+
+#meimg{
+  width:12vw;
+  position:absolute;
+  left:14.4vw;
+  top:229vh;
+}
+
+#bio{
+  font-family: Replica Light;
+  font-size:0.7vw;
+  line-height:1.2;
+  letter-spacing:normal;
+  position:absolute;
+  left:35.5vw;
+  top: 251vh;
+}
+
+#id2{
+  font-family: Replica Light;
+  font-size:0.7vw;
+  line-height:1.2;
+  letter-spacing:normal;
+  position:absolute;
+  left:35.5vw;
+  top: 265vh;
+}
+
+#id3{
+  font-family: Replica Light;
+  font-size:0.7vw;
+  line-height:1.2;
+  letter-spacing:normal;
+  position:absolute;
+  left:35.5vw;
+  top: 275.5vh;
+}
+
+
+#marq{
+  font-family: Replica Light;
+  font-size:0.6vw;
+  position:absolute;
+  width:100%;
+  top:293vh;
+  left:0vw;
+}
+
+#marq2{
+  font-family: Replica Light;
+  font-size:0.6vw;
+  position:absolute;
+  width:100%;
+  top:294.3vh;
+  left:0vw;
+  padding-bottom: 5vh;
+}
+
+#linkedin{
+  font-family: Replica Bold;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  position:absolute;
+  top:251.5vh;
+  left:85.8vw;
+}
+
+#resume{
+  font-family: Replica Bold;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  position:absolute;
+  top:253.8vh;
+  left:85.8vw;
+}
+
+#backup{
+  font-family: Iconographica;
+  font-size:3.5vw;
+  line-height:normal;
+  position:absolute;
+  left:14vw;
+  top:218vh;
+
+  transform-origin: 0 0;
+  transform: rotate(90deg);
 }
 
 
@@ -152,45 +285,3 @@ a:active {
   color: #c1bbbb;
   text-decoration: none;
 }
-
-#three:hover{
-  color: rgb(#f1f1f1);
-  text-decoration: none;
-}
-
-.hover_img a {
-  position:relative;
-  left:12vw;
-  width:101vw;
- }
-.hover_img a span { position:absolute; display:none; z-index:99; }
-.hover_img a:hover span {
-  display:block;
-  position:relative;
-  left:-5.7vw;
-  top:-37.2vw;
-
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
-.hover_img2 a {
-  position:relative;
-  left:12vw;
-  width: 101vw;
- }
-.hover_img2 a span { position:absolute; display:none; z-index:99;}
-.hover_img2 a:hover span {
-  display:block;
-  position:relative;
-  left:-5.7vw;
-  top:-39.2vw;
-
-  animation-name: fadeIn;
-  animation-delay: 0s;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-}
-
