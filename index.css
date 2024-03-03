@@ -31,6 +31,7 @@
 body, html {
     height:100%;
     background-color:#ffffff;
+    cursor:url('newmouse.svg'), auto;
     scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -69,10 +70,12 @@ body, html {
 
 #hugo{
   color:black;
+  cursor:url('newmouse.svg'), auto;
 }
 
 #hugo:hover{
   color: #EA3283;
+  cursor:url('newmouse.svg'), auto;
 }
 
 
@@ -114,6 +117,7 @@ body, html {
   position:absolute;
   left:15vw;
   top: 34.8vw;
+  cursor:url('newmouse.svg'), auto;
 
 }
 
@@ -124,6 +128,7 @@ body, html {
   position:absolute;
   left:15vw;
   top: 36.8vw;
+  cursor:url('newmouse.svg'), auto;
 }
 
 #three{
@@ -134,6 +139,7 @@ body, html {
   left:15vw;
   top: 38.8vw;
   color: rgb(#f1f1f1);
+  cursor:url('newmouse.svg'), auto;
 }
 
 #four{
@@ -144,6 +150,7 @@ body, html {
   left:15vw;
   top: 40.8vw;
   color: rgb(#f1f1f1);
+  cursor:url('newmouse.svg'), auto;
 }
 
 #aboutme{
@@ -153,6 +160,7 @@ body, html {
   position:absolute;
   left:15vw;
   top: 19.3vw;
+  cursor:url('newmouse.svg'), auto;
 }
 
 #ab{
@@ -172,6 +180,7 @@ body, html {
   position:absolute;
   left:15vw;
   top: 200vh;
+  cursor:url('newmouse.svg'), auto;
 }
 
 #meimg{
@@ -238,6 +247,7 @@ body, html {
   position:absolute;
   top:251.5vh;
   left:85.8vw;
+  cursor:url('newmouse.svg'), auto;
 }
 
 #resume{
@@ -247,6 +257,7 @@ body, html {
   position:absolute;
   top:253.8vh;
   left:85.8vw;
+  cursor:url('newmouse.svg'), auto;
 }
 
 #backup{
@@ -259,6 +270,7 @@ body, html {
 
   transform-origin: 0 0;
   transform: rotate(90deg);
+  cursor:url('newmouse.svg'), auto;
 }
 
 
