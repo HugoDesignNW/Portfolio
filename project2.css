@@ -23,6 +23,10 @@ body, html {
     cursor:url('newmouse.svg'), auto;
 }
 
+a{
+  cursor:url('newmouse.svg'), auto;
+}
+
 #title{
   font-family: Replica Bold;
   font-size:4.7vw;
@@ -130,7 +134,6 @@ body, html {
   position:absolute;
   left:15vw;
   top:5vh;
-  cursor:url('newmouse.svg'), auto;
 }
 
 
