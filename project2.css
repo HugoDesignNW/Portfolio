@@ -337,3 +337,7 @@ a:active {
   color: #c1bbbb;
   text-decoration: none;
 }
+
+::selection{
+color:#EA3283;
+}
