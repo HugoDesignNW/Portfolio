@@ -137,7 +137,7 @@ body, html {
   letter-spacing: -0.05vw;
   color:#ACACAC;
   font-size:2vw;
-  line-height:normal;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:121vh;
@@ -146,7 +146,7 @@ body, html {
 #briefd{
   font-family: Replica Light;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:132.1vh;
@@ -157,7 +157,7 @@ body, html {
   letter-spacing: -0.05vw;
   color:#ACACAC;
   font-size:2vw;
-  line-height:normal;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:160.8vh;
@@ -166,7 +166,7 @@ body, html {
 #clientd{
   font-family: Replica Light;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:171.3vh;
@@ -177,7 +177,7 @@ body, html {
   letter-spacing: -0.05vw;
   color:#ACACAC;
   font-size:2vw;
-  line-height:normal;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:199vh;
@@ -186,7 +186,7 @@ body, html {
 #overviewd{
   font-family: Replica Light;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:210.1vh;
@@ -197,7 +197,7 @@ body, html {
   color:#ACACAC;
   letter-spacing: -0.05vw;
   font-size:2vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:250.3vh;
@@ -206,7 +206,7 @@ body, html {
 #moodd{
   font-family: Replica Light;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:261.4vh;
@@ -225,7 +225,7 @@ body, html {
   letter-spacing: -0.05vw;
   color:#ACACAC;
   font-size:2vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:381.5vh;
@@ -234,7 +234,7 @@ body, html {
 #visuald{
   font-family: Replica Light;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:392.6vh;
@@ -246,7 +246,7 @@ body, html {
   letter-spacing: -0.05vw;
   color:#ACACAC;
   font-size:2vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:420vh;
@@ -262,7 +262,7 @@ body, html {
 #thefinals{
   font-family: Replica Light;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:514.3vh;
@@ -274,7 +274,7 @@ body, html {
   color:#ACACAC;
   color:#b2b0b0;
   font-size:1.3vw;
-  line-height:1.5;
+  line-height:160.4%;
   position:absolute;
   left:15vw;
   top:-1.5vw;
