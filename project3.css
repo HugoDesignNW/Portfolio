@@ -21,6 +21,11 @@ body, html {
     height:100%;
     background-color:#ffffff;
     overflow-x: hidden;
+    cursor:url('newmouse.svg'), auto;
+}
+
+a{
+  cursor:url('newmouse.svg'), auto;
 }
 
 #title{
