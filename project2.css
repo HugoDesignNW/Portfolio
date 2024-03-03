@@ -20,6 +20,7 @@
 body, html {
     height:100%;
     background-color:#ffffff;
+    cursor:url('newmouse.svg'), auto;
 }
 
 #title{
@@ -129,6 +130,7 @@ body, html {
   position:absolute;
   left:15vw;
   top:5vh;
+  cursor:url('newmouse.svg'), auto;
 }
 
 
