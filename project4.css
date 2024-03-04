@@ -1,0 +1,498 @@
+@font-face	{
+
+  font-family:Replica Bold;
+  src:url("ReplicaTrial-Bold.otf");
+
+}
+
+@font-face	{
+
+  font-family:Replica Light;
+  src:url("ReplicaTrial-Light.otf");
+}
+
+@font-face	{
+
+  font-family:Iconographica;
+  src:url("Iconografica.ttf");
+}
+
+body, html {
+    height:100%;
+    background-color:#ffffff;
+    overflow-x: hidden;
+    cursor:url('newmouse.svg'), auto;
+}
+
+a{
+  cursor:url('newmouse.svg'), auto;
+}
+
+#title{
+  font-family: Replica Bold;
+  font-size:4.7vw;
+  letter-spacing:-0.3vw;
+  line-height:93%;
+  color:#EA3283;
+  position:absolute;
+  left:15vw;
+  top:24vh;
+}
+
+#introtext{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:54.5vh;
+}
+
+#previous{
+  font-family: Iconographica;
+  font-size:3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:5vh;
+}
+
+#sub1{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:64.5vh;
+}
+
+#sub2{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:77.5vh;
+}
+
+#sub3{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:90.5vh;
+}
+
+#sub4{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:103.5vh;
+}
+
+#subh1{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:70.9vh;
+}
+
+#subh2{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:83.9vh;
+}
+
+#subh3{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:96.9vh;
+}
+
+#subh4{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:109.9vh;
+}
+
+#posters{
+  width:100%;
+  position:absolute;
+  left:0vw;
+  top:126vh;
+}
+
+#brief{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:294.5vh;
+}
+
+#briefd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:308vh;
+}
+
+#client{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:330vh;
+}
+
+#clientd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:344.6vh;
+}
+
+#overview{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:370vh;
+}
+
+#overviewd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:384.6vh;
+}
+
+#lang{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:410vh;
+}
+
+
+#langd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:424.6vh;
+}
+
+#crumpled{
+  width:50vw;
+  position:absolute;
+  left:15vw;
+  top:471vh;
+}
+
+#secondary{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:610vh;
+}
+
+
+#secondaryd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:624.6vh;
+}
+
+
+#metro{
+  width:30vw;
+  position:absolute;
+  left:15vw;
+  top:658vh;
+}
+
+#fromptod{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:757vh;
+}
+
+#fromptodd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:770vh;
+}
+
+#content{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:790.8vh;
+}
+
+#contentd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:804.6vh;
+}
+
+#precendent{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:840vh;
+}
+
+#prepics{
+  width:70vw;
+  position:absolute;
+  left:15vw;
+  top:860.3vh;
+}
+
+#introscreen{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:935vh;
+}
+
+#video1{
+  position:absolute;
+  left:15vw;
+  top:960.3vh;
+}
+
+#quizz{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1056.5vh;
+}
+
+#quizzd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1070.6vh;
+}
+
+
+#video2{
+  position:absolute;
+  left:15vw;
+  top:1104vh;
+}
+
+#navan{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1199.6vh;
+}
+
+#navand{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1213.9vh;
+}
+
+#video3{
+  position:absolute;
+  left:15vw;
+  top:1247vh;
+}
+
+
+#district{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1344.6vh;
+}
+
+#districtd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1357.9vh;
+}
+
+#video4{
+  position:absolute;
+  left:15vw;
+  top:1404vh;
+}
+
+#exhibit{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1499.6vh;
+}
+
+#exhibitd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1513.9vh;
+}
+
+#video5{
+  position:absolute;
+  left:15vw;
+  top:1550vh;
+}
+
+#next{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1643.4vh;
+}
+
+#nextd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1656.9vh;
+}
+
+#video6{
+  position:absolute;
+  left:15vw;
+  top:1689vh;
+
+}
+
+
+a:link {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #EA3283;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+::selection{
+color:#EA3283;
+}
