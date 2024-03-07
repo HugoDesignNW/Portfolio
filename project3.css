@@ -28,6 +28,16 @@ a{
   cursor:url('newmouse.svg'), auto;
 }
 
+#topbar{
+  width:100%;
+  position:fixed;
+  top:0vh;
+  left:0vw;
+
+  padding:5vh;
+  background:#f9f9f9;
+}
+
 #title{
   font-family: Replica Bold;
   font-size:4.7vw;
@@ -136,8 +146,9 @@ a{
 }
 
 #previous{
-  font-family: Iconographica;
-  font-size:3vw;
+  font-family: Replica Bold;
+  letter-spacing:-0.05vw;
+  font-size:1vw;
   line-height:normal;
   position:absolute;
   left:15vw;
