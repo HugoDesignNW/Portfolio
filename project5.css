@@ -1,0 +1,546 @@
+@font-face	{
+
+  font-family:Replica Bold;
+  src:url("ReplicaTrial-Bold.otf");
+
+}
+
+@font-face	{
+
+  font-family:Replica Light;
+  src:url("ReplicaTrial-Light.otf");
+}
+
+@font-face	{
+
+  font-family:Iconographica;
+  src:url("Iconografica.ttf");
+}
+
+body, html {
+    height:100%;
+    background-color:#ffffff;
+    overflow-x: hidden;
+    cursor:url('newmouse.svg'), auto;
+}
+
+a{
+  cursor:url('newmouse.svg'), auto;
+}
+
+#topbar{
+  width:100%;
+  position:fixed;
+  top:0vh;
+  left:0vw;
+
+  padding:5vh;
+  background:#f9f9f9;
+}
+
+#title{
+  font-family: Replica Bold;
+  font-size:4.7vw;
+  letter-spacing:-0.3vw;
+  line-height:93%;
+  color:#EA3283;
+  position:absolute;
+  left:15vw;
+  top:24vh;
+}
+
+#introtext{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:54.5vh;
+}
+
+#previous{
+  font-family: Replica Bold;
+  letter-spacing:-0.05vw;
+  font-size:1vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:5vh;
+}
+
+#sub1{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:64.5vh;
+}
+
+#sub2{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:77.5vh;
+}
+
+#sub3{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:90.5vh;
+}
+
+#sub4{
+  font-family: Replica Bold;
+  color: black;
+  font-size:1.3vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:103.5vh;
+}
+
+#subh1{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:70.9vh;
+}
+
+#subh2{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:83.9vh;
+}
+
+#subh3{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:96.9vh;
+}
+
+#subh4{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:normal;
+  position:absolute;
+  left:15vw;
+  top:109.9vh;
+}
+
+#entryvideo{
+  position:absolute;
+  left:0vw;
+  top:126vh;
+}
+
+#brief{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:238.2vh;
+}
+
+#briefd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:252.5vh;
+}
+
+#client{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:280vh;
+}
+
+#clientd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:294.7vh;
+}
+
+#proposal{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:324vh;
+}
+
+#proposald{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:338.7vh;
+}
+
+#opportunity{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:383.5vh;
+}
+
+#opportunityd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:397.6vh;
+}
+
+
+#framing{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:438vh;
+}
+
+#framingd{
+  width:100%;
+  position:absolute;
+  left:0vw;
+  top:459vh;
+}
+
+#user{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:503vh;
+}
+
+#userd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:517.6vh;
+}
+
+#interview{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:558vh;
+}
+
+#interviewd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:572.6vh;
+}
+
+#pillars{
+  width:100%;
+  position:absolute;
+  left:0vw;
+  top:643vh;
+}
+
+#pillard{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:717.7vh;
+}
+
+
+#finalP{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:742vh;
+}
+
+#finalPd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:756.7vh;
+}
+
+#products{
+  width:100%;
+  position:absolute;
+  left:0vw;
+  top:825vh;
+}
+
+#subdomain{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:894vh;
+}
+
+#subdomaind{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:908.6vh;
+}
+
+#video2{
+  position:absolute;
+  left:0vw;
+  top:953vh;
+}
+
+#mailapp{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1063vh;
+}
+
+#mailappd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1072.6vh;
+}
+
+
+#video3{
+  position:absolute;
+  left:0vw;
+  top:1120vh;
+}
+
+#updates{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1235vh;
+}
+
+#updatesd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1249.6vh;
+}
+
+#video4{
+  position:absolute;
+  left:0vw;
+  top:1315vh;
+}
+
+#discovery{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1427vh;
+}
+
+#discoveryd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1441.6vh;
+}
+
+
+#box{
+  width:70%;
+  position:absolute;
+  left:15vw;
+  top:1492vh;
+}
+
+#concerns{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1588vh;
+}
+
+#concernsd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1603.6vh;
+}
+
+#concern{
+  width:70%;
+  position:absolute;
+  left:15vw;
+  top:1643vh;
+}
+
+#learn{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1743.6vh;
+}
+
+
+#pamphlet{
+  width:70%;
+  position:absolute;
+  left:15vw;
+  top:1793vh;
+}
+
+#brand{
+  font-family: Replica Bold;
+  color:#ACACAC;
+  font-size:2vw;
+  letter-spacing: -0.05vw;
+  line-height:5.2vw;
+  position:absolute;
+  left:15vw;
+  top:1837vh;
+}
+
+#brandd{
+  font-family: Replica Light;
+  font-size:1.3vw;
+  line-height:160.4%;
+  position:absolute;
+  left:15vw;
+  top:1852.6vh;
+}
+
+#brandimg{
+  width:70%;
+  position:absolute;
+  left:15vw;
+  top:1905vh;
+}
+
+
+
+
+a:link {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #EA3283;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #c1bbbb;
+  text-decoration: none;
+}
+
+::selection{
+color:#EA3283;
+}
