@@ -151,6 +151,46 @@ a{
   color: rgb(#f1f1f1);
 }
 
+a>div {
+  display: none;
+}
+
+a:hover>div {
+  display: block;
+}
+
+#p1{
+  width:25vw;
+
+  position:absolute;
+  left:50vw;
+  top:-45vh;
+}
+
+#p2{
+  width:25vw;
+
+  position:absolute;
+  left:50vw;
+  top:-49vh;
+}
+
+#p3{
+  width:25vw;
+
+  position:absolute;
+  left:50vw;
+  top:-53vh;
+}
+
+#p4{
+  width:25vw;
+
+  position:absolute;
+  left:50vw;
+  top:-57vh;
+}
+
 #aboutme{
   font-family: Neue Hass Grotesc;
   letter-spacing: -0.05vw;
@@ -223,15 +263,6 @@ a{
   position:absolute;
   width:100%;
   top:293vh;
-  left:0vw;
-}
-
-#marq2{
-  font-family: Replica Light;
-  font-size:0.6vw;
-  position:absolute;
-  width:100%;
-  top:294.3vh;
   left:0vw;
   padding-bottom: 5vh;
 }
