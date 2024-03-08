@@ -53,13 +53,6 @@ a{
   transform: rotate(13deg);
 
 
-    /*opacity:0;
-    animation-name: fadeIn;
-    animation-delay: 1s;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    */
-
 }
 
 #boss {
@@ -264,7 +257,9 @@ a:hover>div {
   width:100%;
   top:293vh;
   left:0vw;
-  padding-bottom: 5vh;
+  padding-bottom: 1vh;
+  padding-top:1vh;
+  background:#f7f7f7;
 }
 
 #linkedin{
