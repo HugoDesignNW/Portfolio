@@ -184,6 +184,16 @@ a{
   color: rgb(#f1f1f1);
 }
 
+#and{
+  font-family: Replica Light;
+  font-size:0.7vw;
+  line-height:1.2;
+  letter-spacing:normal;
+  position:absolute;
+  left:45.4vw;
+  top: 266.8vh;
+}
+
 a>div {
   display: none;
 }
