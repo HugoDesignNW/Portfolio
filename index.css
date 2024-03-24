@@ -144,6 +144,46 @@ a{
   color: rgb(#f1f1f1);
 }
 
+#tdr{
+  font-family: Replica Light;
+  letter-spacing: -0.05vw;
+  font-size:0.8vw;
+  position:absolute;
+  left:46vw;
+  top: 266.1vh;
+  color: rgb(#f1f1f1);
+}
+
+#NB{
+  font-family: Replica Light;
+  letter-spacing: -0.05vw;
+  font-size:0.8vw;
+  position:absolute;
+  left:35.5vw;
+  top: 268vh;
+  color: rgb(#f1f1f1);
+}
+
+#AD{
+  font-family: Replica Light;
+  letter-spacing: -0.05vw;
+  font-size:0.8vw;
+  position:absolute;
+  left:39.8vw;
+  top: 268vh;
+  color: rgb(#f1f1f1);
+}
+
+#vo{
+  font-family: Replica Light;
+  letter-spacing: -0.05vw;
+  font-size:0.8vw;
+  position:absolute;
+  left:43.75vw;
+  top: 268vh;
+  color: rgb(#f1f1f1);
+}
+
 a>div {
   display: none;
 }
@@ -182,6 +222,38 @@ a:hover>div {
   position:absolute;
   left:50vw;
   top:-57vh;
+}
+
+#p5{
+  width:20vw;
+
+  position:absolute;
+  left:-10.5vw;
+  top:-40vh;
+}
+
+#p6{
+  width:20vw;
+
+  position:absolute;
+  left:0vw;
+  top:-41.8vh;
+}
+
+#p7{
+  width:20vw;
+
+  position:absolute;
+  left:-4.5vw;
+  top:-41.8vh;
+}
+
+#p8{
+  width:20vw;
+
+  position:absolute;
+  left:-8.4vw;
+  top:-41.8vh;
 }
 
 #aboutme{
